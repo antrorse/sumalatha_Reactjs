@@ -6,7 +6,7 @@ export const Login=(props) => {
 
    const handleSubmit =(e) =>{ 
     e.preventDefault();
-    console.log(email,pass);
+    console.log(email);
   };
   function handleChange(event) {
     console.log(event.target.value);
